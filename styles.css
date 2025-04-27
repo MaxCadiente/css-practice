@@ -2,33 +2,38 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f0f0f0;
 }
 
+/* Header styles */
 .header {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .header h1 {
     margin: 0;
 }
 
-.main-content {
+/* Main content styles */
+.main.content {
     background-color: white;
-    color: 333;
+    color: #333;
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
+    max-width: 900px; /* Limits the width of content */
     border-radius: 8px;
+    box-sizing: border-box;
 }
 
+/* Footer styles */
 .footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 10px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
